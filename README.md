@@ -16,7 +16,7 @@ The codes are taken from the FontAwesome LESS/CSS file, and the names of the ind
 
 The usage is simple, and it requires XeLaTeX to be used as compiler and the font to be installed as a system font.
 
-1. Save the file from the gist into your project folder as `fontawesome.sty`
+1. Save the `fontawesome.sty` file from the gist into your project folder.
 2. Put `\usepackage{fontawesome}` into the preamble
 3. Define the font command for FontAwesome: `\newfontfamily{\FA}{FontAwesome Regular}`. This step requires fontspec and XeLaTeX, as regular LaTeX does not support direct usage of TTF/OTF system fonts.
 4. Redefine required characters (optional): `\def\twitter{{\FA \faTwitter}}`
